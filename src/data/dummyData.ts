@@ -258,3 +258,47 @@ export const DUMMY_BOT_LOGS = [
     status: "Success"
   }
 ];
+
+export interface DashboardUser {
+  id: string;
+  name: string;
+  email: string;
+  role: "admin" | "owner" | "marketing";
+  status: "active" | "inactive";
+  avatarUrl?: string;
+  addedAt: string;
+  lastLoginAt?: string;
+}
+
+export let DUMMY_USERS: DashboardUser[] = [
+  {
+    id: "usr-1",
+    name: "Gibran Anggalana (Admin Sistem)",
+    email: "gibran@bumirekayasamandiri.co.id",
+    role: "admin",
+    status: "active",
+    avatarUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+    addedAt: "2026-10-01T08:00:00Z",
+    lastLoginAt: "2026-10-22T08:45:00Z"
+  },
+  {
+    id: "usr-2",
+    name: "Direksi / Owner BRM",
+    email: "owner@bumirekayasamandiri.co.id",
+    role: "owner",
+    status: "active",
+    avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+    addedAt: "2026-10-01T08:00:00Z",
+    lastLoginAt: "2026-10-22T07:12:00Z"
+  },
+  {
+    id: "usr-3",
+    name: "Staf Marketing & Media BRM",
+    email: "marketing@bumirekayasamandiri.co.id",
+    role: "marketing",
+    status: "active",
+    avatarUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+    addedAt: "2026-10-05T10:30:00Z",
+    lastLoginAt: "2026-10-21T15:30:00Z"
+  }
+];
