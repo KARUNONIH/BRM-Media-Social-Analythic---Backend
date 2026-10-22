@@ -104,6 +104,71 @@ export const DUMMY_POSTS: InstagramPost[] = [
     comments: 82,
     publishedAt: "2026-09-22T15:00:00Z",
     tags: ["RAB", "ManajemenBiaya", "KontraktorTerpercaya"]
+  },
+  {
+    id: "post-8",
+    shortcode: "Def5rmGmr1L",
+    type: "Post/Carousel",
+    category: "Fabrikasi Baja",
+    caption: "4 Kesalahan Fatal dalam Memilih Kontraktor Bangunan dan Cara Menghindarinya: Legalitas Jelas, Pengalaman Teruji, dan Jaminan Garansi Pemeliharaan.",
+    postUrl: "https://www.instagram.com/p/Def5rmGmr1L/",
+    imageUrl: "https://images.unsplash.com/photo-1541888946425-d0fbb1861593?w=800&auto=format&fit=crop&q=80",
+    likes: 412,
+    comments: 48,
+    publishedAt: "2026-09-18T11:00:00Z",
+    tags: ["TipsKontraktor", "KonstruksiGedung", "GaransiProyek"]
+  },
+  {
+    id: "post-9",
+    shortcode: "Dea_rT8kVQa",
+    type: "Post/Carousel",
+    category: "Fabrikasi Baja",
+    caption: "RAB Transparan & Standar Mutu BRM: Konstruksi Aman dan Presisi. Menghitung detail setiap batang baja WF dan plat simpul tanpa biaya tersembunyi.",
+    postUrl: "https://www.instagram.com/p/Dea_rT8kVQa/",
+    imageUrl: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80",
+    likes: 320,
+    comments: 29,
+    publishedAt: "2026-09-14T09:30:00Z",
+    tags: ["BajaWF", "FabrikasiBaja", "RABPresisi"]
+  },
+  {
+    id: "post-10",
+    shortcode: "DelVO-akf8I",
+    type: "Reel/Video",
+    category: "K3 & Mutu ISO",
+    caption: "K3 Standard Implementation di Lapangan - Utamakan Keselamatan Kerja di Setiap Ketinggian. Safety briefing harian tim erection BRM.",
+    postUrl: "https://www.instagram.com/reel/DelVO-akf8I/",
+    imageUrl: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
+    likes: 485,
+    comments: 63,
+    publishedAt: "2026-09-10T14:15:00Z",
+    tags: ["SafetyFirst", "K3Konstruksi", "ZeroAccident"]
+  },
+  {
+    id: "post-11",
+    shortcode: "DelVGtLkawo",
+    type: "Post/Carousel",
+    category: "Perencanaan BIM",
+    caption: "Green Building & Smart Building Concept untuk Proyek Berkelanjutan: Efisiensi energi, pencahayaan alami, dan sirkulasi udara optimal.",
+    postUrl: "https://www.instagram.com/p/DelVGtLkawo/",
+    imageUrl: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&auto=format&fit=crop&q=80",
+    likes: 295,
+    comments: 34,
+    publishedAt: "2026-09-05T10:00:00Z",
+    tags: ["GreenBuilding", "BIM", "SmartBuilding"]
+  },
+  {
+    id: "post-12",
+    shortcode: "DZbB9x10aBc",
+    type: "Reel/Video",
+    category: "MEP & Proteksi Petir",
+    caption: "Uji Tahanan Pembumian (Grounding Test) Penangkal Petir di bawah 2 Ohm sesuai standar SNI & NFPA 780.",
+    postUrl: "https://www.instagram.com/reel/DZbB9x10aBc/",
+    imageUrl: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80",
+    likes: 510,
+    comments: 71,
+    publishedAt: "2026-08-30T16:20:00Z",
+    tags: ["GroundingTest", "MEP", "SNI"]
   }
 ];
 
